@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8"><title>Contact Me | Sakinah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="main-page">
+    <div id="main-content">
+        <a href="index.html" class="btn-glow-outline">&larr; Back</a>
+
+        <nav>
+            <div class="container nav-content">
+                <a href="home.html" class="logo">Portofolio.io< /></a>
+                <div class="nav-links">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </div>
+            </div>
+        </nav>
+    <main class="container content-section fade-in">
+        <h1 style="color: var(--neon-blue); text-align:center;">
+            Let's Work Together 🚀
+        </h1>
+        <p style="text-align:center; max-width:600px; margin:auto;">
+            Punya ide menarik atau ingin berkolaborasi? 
+            Yuk hubungi aku!
+        </p>
+        <div class="card form-card">
+            <h2 style="text-align:center;"><b>Get In Touch</b></h2>
+            <form id="formKontak">
+                <div class="form-grid">
+                    <div>
+                        <label>Full Name</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div>
+                        <label>Email Address</label>
+                        <input type="email" required>
+                    </div>
+
+                    <div>
+                        <label>Phone Number</label>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <label>Enquiry Type</label>
+                        <select required>
+                            <option value="">Select...</option>
+                            <option>Collaboration</option>
+                            <option>Job Opportunity</option>
+                            <option>Freelance Project</option>
+                            <option>Just Saying Hi!</option>
+                            <option>Feedback</option>
+                        </select>
+                    </div>
+
+                    <div class="full-width">
+                    <label>Message</label>
+                    <textarea rows="5"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn-glow" style="margin-top:20px;">
+                    Send Message
+                </button>
+            </form>
+            <p id="responDOM" style="text-align:center; margin-top:15px;"></p>
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <h4>Contact Me</h4>
+                <p>082175636519</p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <h4>Email Me</h4>
+                <p>sakinahismail15@email.com</p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Visit Me</h4>
+                <p>Gedung Ilmu Komputer Fakultas MIPA<br>Universitas Lampung</p>
+            </div>
+        </div>
+    </main>
+    <footer style="text-align: center; padding: 40px; color: #555; font-size: 0.8rem;">
+        &copy; 2026 Sakinah. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
